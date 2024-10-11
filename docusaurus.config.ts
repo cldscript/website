@@ -26,7 +26,7 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'ar'],
   },
 
   presets: [
@@ -69,6 +69,10 @@ const config: Config = {
           label: 'Tutorial',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          type: 'localeDropdown',
+          position: 'right',
+        },
         {
           href: 'https://github.com/cldscript',
           position: 'right',
