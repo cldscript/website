@@ -8,19 +8,21 @@ import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">
+          {siteConfig.tagline}
+        </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="/docs/overview">
+            Explore Our Services
           </Link>
         </div>
       </div>
@@ -28,12 +30,11 @@ function HomepageHeader() {
   );
 }
 
-export default function Home(): JSX.Element {
-  const {siteConfig} = useDocusaurusContext();
+export default function Home() {
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title="CloudScript - Software Consulting and Development"
+      description="CloudScript offers expert software consulting, development, and maintenance services to drive your business forward.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
