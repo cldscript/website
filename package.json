@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "ar": "docusaurus write-translations --locale ar",
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "build": "docusaurus build",

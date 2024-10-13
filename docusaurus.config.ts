@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'CloudScript',
-  tagline: 'Precision-Built Software Solutions for Every Need',
+  tagline: 'Tailored Solutions Focused on Your Success',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -63,11 +63,14 @@ const config: Config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          type: 'dropdown',
+          label: 'Services',
           position: 'left',
-          label: 'Tutorial',
+          items: []
         },
+        { to: '/pricing', label: 'Pricing', position: 'left' },
+        { to: '/about', label: 'About', position: 'left' },
+        { to: '/careers', label: 'Careers', position: 'left' },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           type: 'localeDropdown',
