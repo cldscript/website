@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'CloudScript',
-  tagline: 'Empowering Your Business with Innovative Software Solutions',
+  tagline: 'Precision-Built Software Solutions for Every Need',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
