@@ -33,7 +33,7 @@ function HomepageHeader() {
 export default function Home() {
   return (
     <Layout
-      title="CloudScript - Software Consulting and Development"
+      title="Home"
       description="CloudScript offers expert software consulting, development, and maintenance services to drive your business forward.">
       <HomepageHeader />
       <main>

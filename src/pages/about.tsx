@@ -4,7 +4,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 export default function About() {
   return (
     <Layout
-      title="CloudScript - Software Consulting and Development"
+      title="About"
       description="CloudScript offers expert software consulting, development, and maintenance services to drive your business forward.">
       <main>
         <HomepageFeatures />

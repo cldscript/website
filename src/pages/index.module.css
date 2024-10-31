@@ -3,6 +3,13 @@
  * and scoped locally.
  */
 
+ .careersBanner {
+  padding: 4rem 0;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+ }
+
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
@@ -20,4 +27,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.careersPills {
+  padding-top: 0.5em;
 }
