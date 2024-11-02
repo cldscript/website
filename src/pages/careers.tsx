@@ -32,11 +32,19 @@ function CareersPills() {
   );
 }
 
+function CareersItem() {
+  return (
+    <div className='row'>
+      <hr />
+    </div>
+  )
+}
+
 function CareersList() {
   return (
     <div className="container">
       <div className="col col--8 col--offset-2">
-        <hr />
+        <CareersItem />
       </div>
     </div>
   );
